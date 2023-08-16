@@ -1,0 +1,76 @@
+/* css styles */
+  
+  #id1 {
+  background-image: url('NordWood_Themes_bg_image1.jpg'); 
+background-size: cover; 
+background-repeat: no-repeat; 
+height: 500px; 
+margin: 0; 
+padding: 0;
+}
+
+.btn {
+  background-color: transparent;
+  border:1px solid #051094;
+  border-radius: 4px;
+  text-align: center;
+  font-size: .8em;
+  padding: 0.25em 0.5em ;
+  
+}
+.flex-container {
+  display: flex;
+  column-gap: 20px;
+  align-items:  flex-start;
+}
+.jc-center {
+  justify-content: center;
+}
+
+.services-logo {
+  margin: 15px;
+  color: #69b3a2;
+    font-size: 45px;
+  padding: 30px;
+  border-radius: 50%;
+  border-color: black;
+  border-width: 5px;
+  border: solid;
+}
+
+.services-logo:hover {
+  color: white;
+  background-color: #69b3a2;
+}
+
+.icon-container {
+  display: flex;
+  column-gap: 5px;
+  justify-content: flex-end;
+  align-content: flex-end;
+  padding: 1px;
+  margin: 1px;
+}
+
+.icon {
+  display: flex;
+  column-gap: 6px;
+  justify-content: flex-end;
+  align-content: flex-end;
+  align-items: center;
+  padding: 1px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,144 @@
+---
+page-layout: full
+listing: 
+  - id: recent-projects
+    contents: "posts/**/*.qmd"
+    page-size: 4
+    type: grid
+  - id: recent-blog
+    contents: "posts/**/*.qmd"
+    page-size: 8
+    type: table
+---
+
+<head>
+
+<!--Preload Background Image-->
+
+<link rel="preload" href="/images/nordwood-themes1.jpg" as="image"/> <link rel="stylesheet" type="text/css" href="css/styles.css">
+
+```{=html}
+  <style>
+body {
+      background-image: url('/images/nordwood-themes1.jpg');
+      background-size: cover;
+      background-repeat: no-repeat;
+    }
+  </style>
+```
+</head>
+
+::: {#id1 .column-screen layout="[50,50]" layout-valign="center"}
+Data Whisperer: Harnessing the Power of Data for Business Growth
+:::
+
+## Services {.column-page}
+
+::: column-page
+As an exprienced business data analyst and data scientist, my goal is to leverage advanced analytics to unearth actionable insights that drive tangible business growth, optimizing processes, enhancing customer experiences, and maximizing ROI
+
+I am experienced in machine learning, supervised and unsupervised algorithms and use data visualization techniques to present the results. I use SQL, R, Python, PowerBI for my data projects.
+:::
+
+::: {.column-page layout="[[50,50],[50,50],[50,50]]" layout-valign="top"}
+```{r}
+#| echo: false
+#| warning: false
+#| error: false
+
+library(htmltools)
+
+tags$div(class="col-xs-12 col-sm-6 service icon-container",
+        tags$div(class="col-xs-2 icon", align= "right", style="padding: 0;",
+          tags$a(`data-toggle`="modal", href="#dataViz",
+               tags$i(class="bi bi-bar-chart-line bi-xlg services-logo")) ),
+        
+        tags$div(class="col-xs-10 description", tags$h3("Data Analysis"),
+          tags$p("I specialize in unlocking data's power across ecommerce, FMCG, and pharmaceuticals, transforming it into crucial insights that empower informed decisions, guide through challenges, and drive business growth",tags$br(),"(",
+                        tags$a(href="#", "examples"), ")"))
+        )
+```
+
+```{r}
+#| echo: false
+#| warning: false
+#| error: false
+
+# "C:\Users\oseji.victor\Documents\My_Portfolio\Dashboard.jpeg"
+
+tags$div(class="col-xs-12 col-sm-6 service icon-container",
+        tags$div(class="col-xs-2 icon", 
+                 
+          tags$img(src = "https://www.claudiatenhoope.com/wp-content/uploads/2017/12/Business-person-presentation.png", alt="Icon advice and coaching projects", width="17%"),
+        
+        tags$div(class="col-xs-10 description", style="justify-content: flex-start;",
+                 tags$h3("Data Visualization"),
+                 tags$p("As an experienced data scientist, I specialize in comprehensive data analysis and impactful visualization using tools like Excel, R Shiny, Quarto, R Markdown, and PowerBI to empower stakeholders in making well-informed decisions",tags$br(),"(",
+                        tags$a(href="#", "examples"), ")"))  )
+        )
+```
+
+```{r}
+#| echo: false
+#| warning: false
+#| error: false
+
+tags$div(class="col-xs-12 col-sm-6 service icon-container",
+        tags$div(class="col-xs-2 icon",
+          tags$img(src = "https://www.claudiatenhoope.com/wp-content/uploads/2017/12/Business-person-chart.png", alt="Icon data analysis", width="17%"),
+        tags$div(class="col-xs-10 description", tags$h3("Machine Learning"),
+                 tags$p("I am a skilled data scientist experienced in using advanced machine learning to predict trends, extract insights from complex data, and drive growth through data-driven strategies for competitive advantage in dynamic markets",tags$br(),"(",
+                        tags$a(href="#", "examples"), ")")) ) )
+
+```
+
+```{r}
+#| echo: false
+#| warning: false
+#| error: false
+
+tags$div(class="col-xs-12 col-sm-6 service icon-container",
+        tags$div(class="col-xs-2 icon",
+          tags$img(src = "https://www.claudiatenhoope.com/wp-content/uploads/2017/12/Business-person-presentation.png", alt="Icon advice and coaching projects", width="17%"),
+        tags$div(class="col-xs-10 description", tags$h3("Programming"),
+                 tags$p("I have a versatile skill set, excelling in R and proficient in Python, JavaScript, DAX, and SQL, with a proven history of deriving insights from complex datasets to drive impactful data-driven decisions across various domains, including consumer behavior analysis, supply chain optimization, and drug development",tags$br(),"(",
+                        tags$a(href="#", "examples"), ")")) ) )
+```
+
+```{r}
+#| echo: false
+#| warning: false
+#| error: false
+
+tags$div(class="col-xs-12 col-sm-6 service icon-container",
+        tags$div(class="col-xs-2 icon",
+          tags$img(src = "https://www.claudiatenhoope.com/wp-content/uploads/2017/12/Business-person-chart.png", alt="Icon data analysis", width="17%"),
+        tags$div(class="col-xs-10 description", tags$h3("Collaboration"),
+                 tags$p("I excel in extracting valuable insights from complex datasets and effectively translating them into actionable business strategies, enabling informed cross-domain decisions and fostering cohesive teamwork towards shared objectives.7",tags$br(),"(",
+                        tags$a(href="#", "examples"), ")"))) )
+
+```
+
+```{r}
+#| echo: false
+#| warning: false
+#| error: false
+
+tags$div(class="col-xs-12 col-sm-6 service icon-container",
+        tags$div(class="col-xs-2 icon",
+          tags$img(src = "https://www.claudiatenhoope.com/wp-content/uploads/2017/12/Business-person-presentation.png", alt="Icon advice and coaching projects", width="17%"),
+        tags$div(class="col-xs-10 description", tags$h3("Programming"),
+                 tags$p("Before and during data related projects, I give advice on the progress of the project and I coach data analysts.",tags$br(),"(",
+                        tags$a(href="#", "examples"), ")")) ) )
+```
+:::
+
+## Recent Projects
+
+::: {#recent-projects .column-page}
+:::
+
+## Recent Blog Posts
+
+::: {#recent-blog .column-page}
+:::
