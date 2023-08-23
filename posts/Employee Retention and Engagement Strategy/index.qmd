@@ -1,0 +1,14 @@
+---
+title: "Employee Retention Strategy"
+date: "2023-04-16"
+author: Victor .O. Oseji
+categories: [Business, Sales Team, Dashboard, Data Visualization]
+description: "Addressing the Challenge of Employee Retention: Leveraging Advanced Data Analytics to Identify Factors and Develop Strategies that Enhance Employee Engagement and Reduce Attrition Rates."
+image: "sales_team1.jpg"
+---
+
+::: {.column-screen-inset style="margin: 0; padding: 0;"}
+<iframe width="100%" height="10000" scrolling="no" seamless="seamless" frameborder="0" allowFullScreen="true" src="/employee_retention.html" style="border: none; overflow: visible; margin: 0; padding: 0;">
+
+</iframe>
+:::

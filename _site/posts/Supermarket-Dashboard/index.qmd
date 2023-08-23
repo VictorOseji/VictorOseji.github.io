@@ -1,0 +1,15 @@
+---
+title: "Supermarket Sales and Performance Dashboard"
+date: "2022-08-01"
+author: Victor .O. Oseji
+categories: [Business, Supermarket, Dashboard, Data Visualization]
+description: "The supermarket industry is highly competitive, with customer preferences constantly evolving. To maintain a competitive edge and drive profitability, supermarket businesses need to make data-driven decisions. However, accessing, analyzing, and interpreting the vast amount of sales and performance data can be challenging. Therefore, there is a need to develop a comprehensive dashboard that provides real-time insights into various aspects of the supermarket's sales and performance metrics."
+image: "thumbnail.jpg"
+---
+
+::: {.column-screen-inset style="margin: 0; padding: 0;"}
+
+<iframe width="100%" height="3000" scrolling="no" seamless="seamless" frameborder="0" allowFullScreen="true" src="/Supermarket_Report.html" style="border: none; overflow: visible; margin: 0; padding: 0;">
+
+</iframe>
+:::

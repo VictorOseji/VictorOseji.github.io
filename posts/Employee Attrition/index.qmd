@@ -1,0 +1,14 @@
+---
+title: "Employee Attrition"
+date: "2023-03-01"
+author: Victor .O. Oseji
+categories: [Business, Sales Team, Dashboard, Data Visualization]
+description: "Develop a predictive model utilizing historical employee data to accurately forecast and understand employee attrition within the organization. The solution should provide actionable insights into the key factors driving attrition, enabling strategic interventions to reduce turnover, enhance employee retention, and ultimately improve organizational stability and performance."
+image: "christina-wocintechchat-com-rg1y72eKw6o-unsplash.jpg"
+---
+
+::: {.column-screen-inset style="margin: 0; padding: 0;"}
+<iframe width="100%" height="10000" scrolling="no" seamless="seamless" frameborder="0" allowFullScreen="true" src="/hr_analysis.html" style="border: none; overflow: visible; margin: 0; padding: 0;">
+
+</iframe>
+:::

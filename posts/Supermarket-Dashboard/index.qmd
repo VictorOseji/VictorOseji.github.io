@@ -1,0 +1,14 @@
+---
+title: "Departmental Store Sales and Performance Dashboard"
+date: "2023-07-01"
+author: Victor .O. Oseji
+categories: [Business, Supermarket, Dashboard, Data Visualization]
+description: "Develop a comprehensive and insightful dashboard for the departmental store that leverages transactional dataset to provide real-time visibility into sales trends, customer purchasing behavior, and inventory management. The dashboard should enable store managers and decision-makers to make informed strategic decisions, optimize stock levels, identify high-performing products, and enhance customer satisfaction, ultimately driving revenue growth and operational efficiency"
+image: "pexels-thắngnhật-trần-17690074.jpg"
+---
+
+::: {.column-screen-inset style="margin: 0; padding: 0;"}
+<iframe width="100%" height="2800" scrolling="no" seamless="seamless" frameborder="0" allowFullScreen="true" src="/Supermarket_Report.html" style="border: none; overflow: visible; margin: 0; padding: 0;">
+
+</iframe>
+:::

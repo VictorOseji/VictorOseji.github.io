@@ -1,0 +1,14 @@
+---
+title: "Sales Team Productivity Report"
+date: "2023-05-16"
+author: Victor .O. Oseji
+categories: [Business, Sales Team, Dashboard, Data Visualization]
+description: "The objective of this project is to leverage data analytics and machine learning techniques to optimize the sales team's productivity by identifying key areas for improvement and providing actionable insights. By analyzing historical sales data, customer interactions, lead sources, conversion rates, and sales representative performance, we aim to uncover patterns, bottlenecks, and opportunities that can enhance the efficiency of the sales process"
+image: "pexels-fox-1595385.jpg"
+---
+
+::: {.column-screen-inset style="margin: 0; padding: 0;"}
+<iframe width="100%" height="10000" scrolling="no" seamless="seamless" frameborder="0" allowFullScreen="true" src="/sales_rep_analysis.html" style="border: none; overflow: visible; margin: 0; padding: 0;">
+
+</iframe>
+:::

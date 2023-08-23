@@ -1,0 +1,14 @@
+---
+title: "Why Business Startups Fail"
+date: "2023-07-02"
+author: Victor .O. Oseji
+categories: [Business, Startups, Machine Learning, Data Visualization]
+description: "The sales team plays a pivotal role in driving revenue for the company. To ensure consistent growth and profitability, it is imperative to monitor and optimize the performance of the sales team. Accurate and timely insights into the sales team's performance metrics are crucial for making informed decisions, identifying areas of improvement, and recognizing top performers."
+image: "pexels-rfstudio-3810756.jpg"
+---
+
+::: {.column-screen-inset style="margin: 0; padding: 0;"}
+<iframe width="100%" height="7000" scrolling="no" seamless="seamless" frameborder="0" allowFullScreen src="/business_failure.html" style="border: none; overflow: visible; margin: 0; padding: 0;">
+
+</iframe>
+:::

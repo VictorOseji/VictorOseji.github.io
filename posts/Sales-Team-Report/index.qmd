@@ -1,0 +1,14 @@
+---
+title: "Sales Team Performance Report"
+date: "2026-06-01"
+author: Victor .O. Oseji
+categories: [Business, Sales Team, Dashboard, Data Visualization]
+description: "The sales team plays a pivotal role in driving revenue for the company. To ensure consistent growth and profitability, it is imperative to monitor and optimize the performance of the sales team. Accurate and timely insights into the sales team's performance metrics are crucial for making informed decisions, identifying areas of improvement, and recognizing top performers."
+image: "pexels-fauxels-3183150.jpg"
+---
+
+::: {.column-screen-inset style="margin: 0; padding: 0;"}
+<iframe width="100%" height="2000" scrolling="no" seamless="seamless" frameborder="0" allowFullScreen src="/Rep_Dashboard.html" style="border: none; overflow: visible; margin: 0; padding: 0;">
+
+</iframe>
+:::
