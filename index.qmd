@@ -11,30 +11,36 @@ listing:
     type: table
 ---
 
-::::: {#id1 .jumbotron .column-screen-inset style="margin: 0; padding: 0;" layout="[40,65]"}
+::: {#id1 .jumbotron .column-screen-inset style="margin: 0; padding: 0;" layout="[40,65]"}
 
-  <div class="container">
-  <div style="margin-left: 20px; margin-top: 30px; position: absolute; top: 180px; left: 150px;" >
-  <h1 style="margin-top: 20px; margin-bottom: 10px; font-weight: 500; color: white;">Welcome</h1>
-  <p style="display: block; margin-block-start: 1rem; margin-block-end: 1rem; margin-inline: 0; margin-bottom: 15px;font-size: 21px; font-weight; 200; color: white;">To Data Discoveries: Unveiling the Hidden Stories Through Analytics</p>
-  <p><a class="btn btn-success btn-xlg" href="projects.qmd" role="button" style="color: #fff; background-color: #051094; border-color: #fff;">Learn more</a></p>
-  </div>
-  </div>
-  
-:::::
+::: container
+
+::: {style="margin-left: 20px; margin-top: 30px; position: absolute; top: 180px; left: 150px;"}
+
+<h1 style="margin-top: 20px; margin-bottom: 10px; font-weight: 500; color: white;">
+
+Welcome
+
+</h1>
+
+<p style="display: block; margin-block-start: 1rem; margin-block-end: 1rem; margin-inline: 0; margin-bottom: 15px;font-size: 21px; font-weight; 200; color: #ffffff;">
+
+To Data Discoveries: Unveiling the Hidden Stories Through Analytics
+
+</p>
+
+<p><a class="btn btn-success btn-xlg" href="projects.qmd" role="button" style="color: #fff; background-color: #051094; border-color: #fff;">Learn more</a></p>
+:::
+:::
+:::
 
 ## Services {.column-page}
 
-::: {.column-page}
-
-As an exprienced business data analyst and data scientist, my goal is to leverage advanced analytics to unearth actionable insights that drive tangible business growth, optimizing processes, enhancing customer experiences, and maximizing ROI
-
-I am experienced in machine learning, supervised and unsupervised algorithms and use data visualization techniques to present the results. I use SQL, R, Python, PowerBI for my data projects.
-
+::: column-page
+As an experienced business data analyst and data scientist, my goal is to leverage advanced analytics to unearth actionable insights that drives informed decision-making, optimize processes and unlock new opportunities for tangible business growth, enhance customer experiences while maximizing ROI. I possess a comprehensive skills set that enables me to excel as a data scientist ranging from data manipulation and analysis to data visualization and machine learning applications. I am proficient in the use of R, Python, Quarto, RShiny, PowerBI & SQL for my data projects.
 :::
 
 ::: {.column-page layout="[[50,50],[50,50],[50,50]]" layout-valign="top" style="margin-top: 3px; margin-bottom: 0; padding: 1px;"}
-
 ```{r}
 #| echo: false
 #| warning: false
@@ -47,8 +53,8 @@ tags$div(class="col-xs-12 col-sm-6 service icon-container",
           tags$img(src = "/data_analysis.png", alt="Icon advice and coaching projects", width="17%"),
         
         tags$div(class="col-xs-10 description", tags$h3("Data Analysis"),
-          tags$p("I specialize in unlocking data's power across ecommerce, FMCG, and pharmaceuticals, transforming it into crucial insights that empower informed decisions, guide through challenges, and drive business growth",tags$br(),"(",
-                        tags$a(href="#", "examples"), ")")) )
+          tags$p("I specialize in unlocking data's power across businesses with experience in ecommerce, FMCG, and pharmaceuticals, transforming it into crucial insights that empower informed decisions, guide through challenges, and drive business growth",tags$br(),"(",
+                        tags$a(href="Supermarket_Report.html", "examples"), ")")) )
         )
 ```
 
@@ -64,8 +70,8 @@ tags$div(class="col-xs-12 col-sm-6 service icon-container",
           tags$img(src = "/dashboard.png", alt="Icon advice and coaching projects", width="17%"),
         tags$div(class="col-xs-10 description", style="justify-content: flex-start;",
                  tags$h3("Data Visualization"),
-                 tags$p("As an experienced data scientist, I specialize in comprehensive data analysis and impactful visualization using tools like Excel, R Shiny, Quarto, R Markdown, and PowerBI to empower stakeholders in making well-informed decisions",tags$br(),"(",
-                        tags$a(href="#", "examples"), ")"))  )
+                 tags$p("As an experienced data scientist, I specialize in discerning complex data into insights with the use of both static and interactive visualization using tools like RShiny, Quarto, plotly, ggplot2, PowerBI and Excel to empower stakeholders in making well-informed decisions",tags$br(),"(",
+                        tags$a(href="Rep_Dashboard.html", "examples"), ")"))  )
         )
 ```
 
@@ -78,8 +84,8 @@ tags$div(class="col-xs-12 col-sm-6 service icon-container",
         tags$div(class="col-xs-2 icon",
           tags$img(src = "/predictive.png", alt="Icon data analysis", width="17%"),
         tags$div(class="col-xs-10 description", tags$h3("Predictive Analytics"),
-                 tags$p("I am a skilled data scientist experienced in using advanced machine learning to predict trends, extract insights from complex data, and drive growth through data-driven strategies for competitive advantage in dynamic markets",tags$br(),"(",
-                        tags$a(href="#", "examples"), ")")) ) )
+                 tags$p("I am experienced in using advanced machine learning to predict trends, extract insights from complex data, and drive growth through data-driven strategies for competitive advantage in dynamic markets",tags$br(),"(",
+                        tags$a(href="sales_rep_analysis.html", "examples"), ")")) ) )
 
 ```
 
@@ -122,7 +128,6 @@ tags$div(class="col-xs-12 col-sm-6 service icon-container",
                  tags$p("I provide comprehensive business process optimization services by utilizing data-driven insights to streamline operations, reduce costs, and drive sustainable growth through strategic implementation and tailored strategies",tags$br(),"(",
                         tags$a(href="#", "examples"), ")")) ) )
 ```
-
 :::
 
 ## Recent Projects
