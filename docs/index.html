@@ -72,7 +72,8 @@ ul.task-list li input[type="checkbox"] {
 
     const options = {
       valueNames: ['listing-title','listing-author','listing-date','listing-image','listing-description',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
-      
+      page: 6,
+    pagination: { item: "<li class='page-item'><a class='page page-link' href='#'></a></li>" },
       searchColumns: ["listing-title","listing-author","listing-date","listing-image","listing-description"],
     };
 
@@ -359,7 +360,7 @@ I provide comprehensive business process optimization services by utilizing data
 <p>Explore a diverse collection of projects that showcase my skills and passion for data science:</p>
 <div id="listing-recent-projects" class="column-page quarto-listing quarto-listing-container-grid">
 <div class="list grid quarto-listing-cols-3">
-<div class="g-col-1" data-index="0" data-categories="Business,Supermarket,Dashboard,Data Visualization" data-listing-date-sort="1688166000000" data-listing-file-modified-sort="1692614757231" data-listing-reading-time-sort="0.105">
+<div class="g-col-1" data-index="0" data-categories="Business,Supermarket,Dashboard,Data Visualization" data-listing-date-sort="1688166000000" data-listing-file-modified-sort="1693561764559" data-listing-reading-time-sort="0.105">
 <a href="./posts/Supermarket-Dashboard/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -434,7 +435,7 @@ Apr 16, 2023
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="3" data-categories="Business,Sales Team,Dashboard,Data Visualization" data-listing-date-sort="1780268400000" data-listing-file-modified-sort="1692614541623" data-listing-reading-time-sort="0.105">
+<div class="g-col-1" data-index="3" data-categories="Business,Sales Team,Dashboard,Data Visualization" data-listing-date-sort="1685574000000" data-listing-file-modified-sort="1693561469943" data-listing-reading-time-sort="0.105">
 <a href="./posts/Sales-Team-Report/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -452,14 +453,14 @@ The sales team plays a pivotal role in driving revenue for the company. To ensur
 Victor .O. Oseji
 </div>
 <div class="listing-date">
-Jun 1, 2026
+Jun 1, 2023
 </div>
 </div>
 </div>
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="4" data-categories="Business,Sales Team,Dashboard,Data Visualization" data-listing-date-sort="1684191600000" data-listing-file-modified-sort="1692457778421" data-listing-reading-time-sort="0.105">
+<div class="g-col-1" data-index="4" data-categories="Business,Sales Team,Dashboard,Data Visualization" data-listing-date-sort="1684191600000" data-listing-file-modified-sort="1693562697190" data-listing-reading-time-sort="0.105">
 <a href="./posts/Sales-Rep-Productivity/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -484,11 +485,36 @@ May 16, 2023
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="5" data-categories="Business,Startups,Machine Learning,Data Visualization" data-listing-date-sort="1688252400000" data-listing-file-modified-sort="1692810380788" data-listing-reading-time-sort="0.105">
+<div class="g-col-1" data-index="5" data-categories="Business,Retail,App,Dashboard,Data Visualization" data-listing-date-sort="1690844400000" data-listing-file-modified-sort="1693563344983" data-listing-reading-time-sort="0.11">
+<a href="./posts/Superstore Shiny App/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img src="./posts/Superstore Shiny App/path-digital-tR0jvlsmCuQ-unsplash.jpg" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Superstore Dashboard App
+</h5>
+<div class="card-text listing-description">
+The superstore aims to enhance operational efficiency and decision-making by developing a Shiny app dashboard that provides real-time insights into sales, inventory, and…
+</div>
+<div class="card-attribution card-text-small justify">
+<div class="listing-author">
+Victor .O. Oseji
+</div>
+<div class="listing-date">
+Aug 1, 2023
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="6" data-categories="Business,Startups,Machine Learning,Data Visualization" data-listing-date-sort="1688252400000" data-listing-file-modified-sort="1692810380788" data-listing-reading-time-sort="0.105">
 <a href="./posts/Business_Failure/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
-<img src="./posts/Business_Failure/pexels-rfstudio-3810756.jpg" class="thumbnail-image card-img" style="height: 150px;">
+<img data-src="./posts/Business_Failure/pexels-rfstudio-3810756.jpg" class="thumbnail-image card-img" style="height: 150px;">
 </p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
@@ -513,6 +539,9 @@ Jul 2, 2023
 <div class="listing-no-matching d-none">
 No matching items
 </div>
+<nav id="recent-projects-pagination" class="listing-pagination" aria-label="Page Navigation">
+  <ul class="pagination"></ul>
+</nav>
 </div>
 </section>
 <section id="recent-blog-posts" class="level2 page-columns page-full">
@@ -560,7 +589,7 @@ No matching items
 </tr>
 </thead>
 <tbody class="list">
-<tr data-index="0" data-categories="Business,Supermarket,Dashboard,Data Visualization" data-listing-date-sort="1688166000000" data-listing-file-modified-sort="1692614757231" data-listing-reading-time-sort="0.105" data-listing-title-sort="Departmental Store Sales and Performance Dashboard" data-listing-filename-sort="index.qmd">
+<tr data-index="0" data-categories="Business,Supermarket,Dashboard,Data Visualization" data-listing-date-sort="1688166000000" data-listing-file-modified-sort="1693561764559" data-listing-reading-time-sort="0.105" data-listing-title-sort="Departmental Store Sales and Performance Dashboard" data-listing-filename-sort="index.qmd">
 <td class="listing-date">
 Jul 1, 2023
 </td>
@@ -593,9 +622,9 @@ Apr 16, 2023
 Victor .O. Oseji
 </td>
 </tr>
-<tr data-index="3" data-categories="Business,Sales Team,Dashboard,Data Visualization" data-listing-date-sort="1780268400000" data-listing-file-modified-sort="1692614541623" data-listing-reading-time-sort="0.105" data-listing-title-sort="Sales Team Performance Report" data-listing-filename-sort="index.qmd">
+<tr data-index="3" data-categories="Business,Sales Team,Dashboard,Data Visualization" data-listing-date-sort="1685574000000" data-listing-file-modified-sort="1693561469943" data-listing-reading-time-sort="0.105" data-listing-title-sort="Sales Team Performance Report" data-listing-filename-sort="index.qmd">
 <td class="listing-date">
-Jun 1, 2026
+Jun 1, 2023
 </td>
 <td class="listing-title">
 <a href="./posts/Sales-Team-Report/index.html" class="title">Sales Team Performance Report</a>
@@ -604,7 +633,7 @@ Jun 1, 2026
 Victor .O. Oseji
 </td>
 </tr>
-<tr data-index="4" data-categories="Business,Sales Team,Dashboard,Data Visualization" data-listing-date-sort="1684191600000" data-listing-file-modified-sort="1692457778421" data-listing-reading-time-sort="0.105" data-listing-title-sort="Sales Team Productivity Report" data-listing-filename-sort="index.qmd">
+<tr data-index="4" data-categories="Business,Sales Team,Dashboard,Data Visualization" data-listing-date-sort="1684191600000" data-listing-file-modified-sort="1693562697190" data-listing-reading-time-sort="0.105" data-listing-title-sort="Sales Team Productivity Report" data-listing-filename-sort="index.qmd">
 <td class="listing-date">
 May 16, 2023
 </td>
@@ -615,7 +644,18 @@ May 16, 2023
 Victor .O. Oseji
 </td>
 </tr>
-<tr data-index="5" data-categories="Business,Startups,Machine Learning,Data Visualization" data-listing-date-sort="1688252400000" data-listing-file-modified-sort="1692810380788" data-listing-reading-time-sort="0.105" data-listing-title-sort="Why Business Startups Fail" data-listing-filename-sort="index.qmd">
+<tr data-index="5" data-categories="Business,Retail,App,Dashboard,Data Visualization" data-listing-date-sort="1690844400000" data-listing-file-modified-sort="1693563344983" data-listing-reading-time-sort="0.11" data-listing-title-sort="Superstore Dashboard App" data-listing-filename-sort="index.qmd">
+<td class="listing-date">
+Aug 1, 2023
+</td>
+<td class="listing-title">
+<a href="./posts/Superstore Shiny App/index.html" class="title">Superstore Dashboard App</a>
+</td>
+<td class="listing-author">
+Victor .O. Oseji
+</td>
+</tr>
+<tr data-index="6" data-categories="Business,Startups,Machine Learning,Data Visualization" data-listing-date-sort="1688252400000" data-listing-file-modified-sort="1692810380788" data-listing-reading-time-sort="0.105" data-listing-title-sort="Why Business Startups Fail" data-listing-filename-sort="index.qmd">
 <td class="listing-date">
 Jul 2, 2023
 </td>
@@ -900,7 +940,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     </a>
   </li>  
     <li class="nav-item compact">
-    <a class="nav-link" href="https://linkedin.com/victor-oseji-50243663">
+    <a class="nav-link" href="https://linkedin.com/victoroseji">
       <i class="bi bi-linkedin" role="img">
 </i> 
     </a>

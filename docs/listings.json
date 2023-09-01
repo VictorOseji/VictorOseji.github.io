@@ -2,9 +2,10 @@
   {
     "listing": "/blog.html",
     "items": [
-      "/posts/Sales-Team-Report/index.html",
+      "/posts/Superstore Shiny App/index.html",
       "/posts/Business_Failure/index.html",
       "/posts/Supermarket-Dashboard/index.html",
+      "/posts/Sales-Team-Report/index.html",
       "/posts/Sales-Rep-Productivity/index.html",
       "/posts/Employee Retention and Engagement Strategy/index.html",
       "/posts/Employee Attrition/index.html"
@@ -18,15 +19,17 @@
       "/posts/Employee Retention and Engagement Strategy/index.html",
       "/posts/Sales-Team-Report/index.html",
       "/posts/Sales-Rep-Productivity/index.html",
+      "/posts/Superstore Shiny App/index.html",
       "/posts/Business_Failure/index.html"
     ]
   },
   {
     "listing": "/projects.html",
     "items": [
-      "/posts/Sales-Team-Report/index.html",
+      "/posts/Superstore Shiny App/index.html",
       "/posts/Business_Failure/index.html",
       "/posts/Supermarket-Dashboard/index.html",
+      "/posts/Sales-Team-Report/index.html",
       "/posts/Sales-Rep-Productivity/index.html",
       "/posts/Employee Retention and Engagement Strategy/index.html",
       "/posts/Employee Attrition/index.html"
